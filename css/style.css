@@ -1891,3 +1891,276 @@ a {
     }
 
 }
+
+/* =====================================================
+   PREMIUM READABILITY UPGRADE
+===================================================== */
+
+/* Sidebar */
+.nav-label {
+    font-size: 10px;
+}
+
+.nav-item {
+    font-size: 14px;
+}
+
+.nav-icon {
+    font-size: 18px;
+}
+
+.brand-text h2 {
+    font-size: 18px;
+}
+
+.brand-text p {
+    font-size: 11px;
+}
+
+.version {
+    font-size: 10px;
+}
+
+/* Quick actions */
+.quick-ticket,
+.report-button {
+    font-size: 13px;
+}
+
+.ai-status-card strong {
+    font-size: 12px;
+}
+
+.ai-status-card p {
+    font-size: 10px;
+}
+
+.user-details strong {
+    font-size: 11px;
+}
+
+.user-details p {
+    font-size: 10px;
+}
+
+/* Search */
+.search-box input {
+    font-size: 13px;
+}
+
+.search-shortcut {
+    font-size: 10px;
+}
+
+/* Welcome */
+.section-kicker {
+    font-size: 10px;
+}
+
+.welcome-text > p {
+    font-size: 14px;
+}
+
+.date-card strong {
+    font-size: 12px;
+}
+
+.date-card span {
+    font-size: 10px;
+}
+
+/* Stats */
+.stat-card-top > div:first-child > span {
+    font-size: 12px;
+}
+
+.stat-card h3 {
+    font-size: 29px;
+}
+
+.stat-card h3 span {
+    font-size: 15px;
+}
+
+.stat-bottom {
+    font-size: 11px;
+}
+
+/* Panel headings */
+.mini-label {
+    font-size: 9px;
+}
+
+.panel-heading h2 {
+    font-size: 18px;
+}
+
+.panel-heading p {
+    font-size: 11px;
+}
+
+.ai-ready {
+    font-size: 11px;
+}
+
+/* Ticket input */
+.input-label {
+    font-size: 10px;
+}
+
+.analysis-area textarea {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.input-info {
+    font-size: 10px;
+}
+
+.analyze-button {
+    font-size: 13px;
+}
+
+/* AI Result */
+.result-label {
+    font-size: 10px;
+}
+
+.result-top p {
+    font-size: 10px;
+}
+
+.confidence {
+    font-size: 10px;
+}
+
+.result-card > span {
+    font-size: 9px;
+}
+
+.result-value strong {
+    font-size: 12px;
+}
+
+.result-small-icon {
+    font-size: 14px;
+}
+
+/* Suggested response */
+.response-heading strong {
+    font-size: 12px;
+}
+
+.response-heading span {
+    font-size: 8px;
+}
+
+.response-content p {
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.copy-button {
+    font-size: 10px;
+}
+
+/* Recent tickets */
+.compact a {
+    font-size: 10px;
+}
+
+.ticket-content strong {
+    font-size: 11px;
+}
+
+.ticket-content span {
+    font-size: 9px;
+}
+
+.ticket-status {
+    font-size: 9px;
+}
+
+.recent-ticket time {
+    font-size: 9px;
+}
+
+/* Insights */
+.insight-box span {
+    font-size: 9px;
+}
+
+.insight-box strong {
+    font-size: 12px;
+}
+
+.insight-number {
+    font-size: 18px;
+}
+
+.insight-number small {
+    font-size: 8px;
+}
+
+/* Footer */
+.footer {
+    font-size: 9px;
+}
+
+/* =====================================================
+   EXTRA SPACING FOR READABILITY
+===================================================== */
+
+.panel-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.analysis-area {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.result-grid {
+    margin-top: 16px;
+}
+
+.result-card {
+    padding: 14px;
+}
+
+.suggested-response {
+    padding: 15px;
+}
+
+/* =====================================================
+   MOBILE READABILITY
+===================================================== */
+
+@media (max-width: 620px) {
+
+    .nav-item {
+        font-size: 14px;
+    }
+
+    .welcome-text > p {
+        font-size: 13px;
+    }
+
+    .panel-heading h2 {
+        font-size: 17px;
+    }
+
+    .analysis-area textarea {
+        font-size: 14px;
+    }
+
+    .result-value strong {
+        font-size: 12px;
+    }
+
+    .response-content p {
+        font-size: 11px;
+    }
+
+}
