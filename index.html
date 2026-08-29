@@ -1,1 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>AI Ticket Assistant</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">✦</div>
+
+                <div>
+                    <h2>TicketAI</h2>
+                    <span>Support Intelligence</span>
+                </div>
+            </div>
+
+            <nav class="navigation">
+
+                <p class="nav-title">MAIN</p>
+
+                <a href="#" class="nav-item active">
+                    <span>⌂</span>
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>▣</span>
+                    Tickets
+                    <b>12</b>
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>✦</span>
+                    AI Assistant
+                </a>
+
+                <p class="nav-title">INSIGHTS</p>
+
+                <a href="#" class="nav-item">
+                    <span>◈</span>
+                    Analytics
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>▤</span>
+                    Knowledge Base
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <a href="#" class="nav-item">
+                    <span>⚙</span>
+                    Settings
+                </a>
+
+                <div class="user-card">
+
+                    <div class="avatar">OS</div>
+
+                    <div class="user-info">
+                        <strong>Omprakash</strong>
+                        <small>AI Support Agent</small>
+                    </div>
+
+                    <span class="more">•••</span>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+
+            <!-- TOPBAR -->
+            <header class="topbar">
+
+                <div class="mobile-brand">
+                    TicketAI
+                </div>
+
+                <div class="top-actions">
+
+                    <button class="icon-button">
+                        ◐
+                    </button>
+
+                    <button class="icon-button notification">
+                        ♢
+                        <span></span>
+                    </button>
+
+                    <div class="profile">
+                        <div class="avatar small">OS</div>
+                        <div>
+                            <strong>Omprakash</strong>
+                            <small>Administrator</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- CONTENT -->
+            <section class="content">
+
+                <div class="welcome">
+
+                    <div>
+                        <p class="eyebrow">OVERVIEW</p>
+
+                        <h1>
+                            Good morning, Omprakash
+                            <span>👋</span>
+                        </h1>
+
+                        <p class="subtitle">
+                            Here's what's happening with your support system today.
+                        </p>
+                    </div>
+
+                    <button class="new-ticket">
+                        <span>＋</span>
+                        New Ticket
+                    </button>
+
+                </div>
+
+
+                <!-- STAT CARDS -->
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <div class="stat-top">
+                            <span>Total Tickets</span>
+                            <div class="stat-icon">▣</div>
+                        </div>
+
+                        <div class="stat-value">1,248</div>
+
+                        <div class="stat-change positive">
+                            ↑ 12.5%
+                            <span>vs last month</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-top">
+                            <span>AI Resolved</span>
+                            <div class="stat-icon ai">✦</div>
+                        </div>
+
+                        <div class="stat-value">842</div>
+
+                        <div class="stat-change positive">
+                            ↑ 18.2%
+                            <span>vs last month</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-top">
+                            <span>Pending Tickets</span>
+                            <div class="stat-icon warning">◷</div>
+                        </div>
+
+                        <div class="stat-value">96</div>
+
+                        <div class="stat-change negative">
+                            ↓ 8.4%
+                            <span>vs last month</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-top">
+                            <span>Avg. Response</span>
+                            <div class="stat-icon speed">ϟ</div>
+                        </div>
+
+                        <div class="stat-value">1.8<span class="unit">s</span></div>
+
+                        <div class="stat-change positive">
+                            ↑ 24.7%
+                            <span>faster than before</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DASHBOARD GRID -->
+                <div class="dashboard-grid">
+
+
+                    <!-- AI ASSISTANT -->
+                    <div class="ai-panel">
+
+                        <div class="panel-header">
+
+                            <div>
+                                <p class="eyebrow">INTELLIGENCE</p>
+                                <h2>AI Ticket Assistant</h2>
+                            </div>
+
+                            <div class="ai-status">
+                                <span></span>
+                                AI Online
+                            </div>
+
+                        </div>
+
+
+                        <div class="ticket-input">
+
+                            <label>DESCRIBE THE CUSTOMER ISSUE</label>
+
+                            <textarea
+                                placeholder="e.g. I forgot my password and can't login to my account..."
+                            ></textarea>
+
+                            <div class="input-footer">
+
+                                <span>
+                                    ✦ AI will classify and generate a response
+                                </span>
+
+                                <button>
+                                    Analyze Ticket →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-result">
+
+                            <div class="result-header">
+
+                                <span>AI ANALYSIS</span>
+
+                                <div class="confidence">
+                                    98% confidence
+                                </div>
+
+                            </div>
+
+
+                            <div class="result-tags">
+
+                                <div>
+                                    <small>INTENT</small>
+                                    <strong>Password Reset</strong>
+                                </div>
+
+                                <div>
+                                    <small>CATEGORY</small>
+                                    <strong>Authentication</strong>
+                                </div>
+
+                                <div>
+                                    <small>PRIORITY</small>
+                                    <strong class="priority">Medium</strong>
+                                </div>
+
+                            </div>
+
+
+                            <div class="suggested-response">
+
+                                <div class="response-title">
+                                    <span>✦</span>
+                                    Suggested Response
+                                </div>
+
+                                <p>
+                                    No worries! You can reset your password by
+                                    selecting <strong>“Forgot Password”</strong>
+                                    on the login page. We'll guide you through
+                                    the process step by step.
+                                </p>
+
+                                <button class="copy-button">
+                                    Copy Response
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- RECENT TICKETS -->
+                    <div class="tickets-panel">
+
+                        <div class="panel-header">
+
+                            <div>
+                                <p class="eyebrow">ACTIVITY</p>
+                                <h2>Recent Tickets</h2>
+                            </div>
+
+                            <a href="#">View all →</a>
+
+                        </div>
+
+
+                        <div class="ticket-list">
+
+                            <div class="ticket">
+
+                                <div class="ticket-id">
+                                    #TK-1042
+                                </div>
+
+                                <div class="ticket-title">
+                                    Unable to reset my password
+                                </div>
+
+                                <div class="ticket-meta">
+                                    <span class="tag authentication">
+                                        Authentication
+                                    </span>
+
+                                    <span class="priority-dot high">
+                                        High
+                                    </span>
+                                </div>
+
+                                <div class="ticket-time">
+                                    2 min ago
+                                </div>
+
+                            </div>
+
+
+                            <div class="ticket">
+
+                                <div class="ticket-id">
+                                    #TK-1041
+                                </div>
+
+                                <div class="ticket-title">
+                                    How can I check my leave balance?
+                                </div>
+
+                                <div class="ticket-meta">
+                                    <span class="tag account">
+                                        Account
+                                    </span>
+
+                                    <span class="priority-dot medium">
+                                        Medium
+                                    </span>
+                                </div>
+
+                                <div class="ticket-time">
+                                    8 min ago
+                                </div>
+
+                            </div>
+
+
+                            <div class="ticket">
+
+                                <div class="ticket-id">
+                                    #TK-1040
+                                </div>
+
+                                <div class="ticket-title">
+                                    Payment failed but amount was deducted
+                                </div>
+
+                                <div class="ticket-meta">
+                                    <span class="tag billing">
+                                        Billing
+                                    </span>
+
+                                    <span class="priority-dot critical">
+                                        Critical
+                                    </span>
+                                </div>
+
+                                <div class="ticket-time">
+                                    14 min ago
+                                </div>
+
+                            </div>
+
+
+                            <div class="ticket">
+
+                                <div class="ticket-id">
+                                    #TK-1039
+                                </div>
+
+                                <div class="ticket-title">
+                                    Cannot access my dashboard
+                                </div>
+
+                                <div class="ticket-meta">
+                                    <span class="tag technical">
+                                        Technical
+                                    </span>
+
+                                    <span class="priority-dot low">
+                                        Low
+                                    </span>
+                                </div>
+
+                                <div class="ticket-time">
+                                    21 min ago
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
