@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="AI Ticket Assistant - Intelligent support ticket classification and response platform">
 
     <title>AI Ticket Assistant</title>
 
@@ -11,106 +15,191 @@
 
 <body>
 
+    <!-- Background Glow -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="background-glow glow-three"></div>
+
     <div class="app">
 
-        <!-- SIDEBAR -->
+        <!-- =====================================================
+             SIDEBAR
+        ====================================================== -->
+
         <aside class="sidebar">
 
             <div class="brand">
-                <div class="brand-icon">✦</div>
 
-                <div>
-                    <h2>TicketAI</h2>
-                    <span>Support Intelligence</span>
+                <div class="brand-logo">
+                    <span>✦</span>
                 </div>
+
+                <div class="brand-text">
+                    <h2>TicketAI</h2>
+                    <p>Support Intelligence</p>
+                </div>
+
+                <span class="version">v1.0</span>
+
             </div>
+
+
+            <!-- Navigation -->
 
             <nav class="navigation">
 
-                <p class="nav-title">MAIN</p>
+                <div class="nav-section">
 
-                <a href="#" class="nav-item active">
-                    <span>⌂</span>
-                    Dashboard
-                </a>
+                    <span class="nav-label">WORKSPACE</span>
 
-                <a href="#" class="nav-item">
-                    <span>▣</span>
-                    Tickets
-                    <b>12</b>
-                </a>
+                    <a href="#" class="nav-item active">
+                        <span class="nav-icon">⌂</span>
+                        <span>Dashboard</span>
+                    </a>
 
-                <a href="#" class="nav-item">
-                    <span>✦</span>
-                    AI Assistant
-                </a>
+                    <a href="#" class="nav-item">
+                        <span class="nav-icon">▣</span>
+                        <span>Tickets</span>
+                        <b class="ticket-count">12</b>
+                    </a>
 
-                <p class="nav-title">INSIGHTS</p>
+                    <a href="#" class="nav-item">
+                        <span class="nav-icon">✦</span>
+                        <span>AI Assistant</span>
+                    </a>
 
-                <a href="#" class="nav-item">
-                    <span>◈</span>
-                    Analytics
-                </a>
+                </div>
 
-                <a href="#" class="nav-item">
-                    <span>▤</span>
-                    Knowledge Base
-                </a>
+
+                <div class="nav-section">
+
+                    <span class="nav-label">INSIGHTS</span>
+
+                    <a href="#" class="nav-item">
+                        <span class="nav-icon">◈</span>
+                        <span>Analytics</span>
+                    </a>
+
+                    <a href="#" class="nav-item">
+                        <span class="nav-icon">▤</span>
+                        <span>Knowledge Base</span>
+                    </a>
+
+                </div>
+
+
+                <div class="nav-section">
+
+                    <span class="nav-label">SYSTEM</span>
+
+                    <a href="#" class="nav-item">
+                        <span class="nav-icon">⚙</span>
+                        <span>Settings</span>
+                    </a>
+
+                </div>
 
             </nav>
 
-            <div class="sidebar-bottom">
 
-                <a href="#" class="nav-item">
-                    <span>⚙</span>
-                    Settings
-                </a>
+            <!-- Quick Actions -->
 
-                <div class="user-card">
+            <div class="quick-actions">
 
-                    <div class="avatar">OS</div>
+                <span class="nav-label">QUICK ACTIONS</span>
 
-                    <div class="user-info">
-                        <strong>Omprakash</strong>
-                        <small>AI Support Agent</small>
-                    </div>
+                <button class="quick-ticket">
+                    <span>＋</span>
+                    New Ticket
+                </button>
 
-                    <span class="more">•••</span>
+                <button class="report-button">
+                    <span>◈</span>
+                    View Reports
+                </button>
 
+            </div>
+
+
+            <!-- AI Status -->
+
+            <div class="ai-status-card">
+
+                <div class="status-icon">
+                    <span></span>
                 </div>
+
+                <div>
+                    <strong>AI Status</strong>
+                    <p>Online & Learning</p>
+                </div>
+
+                <div class="status-wave">
+                    〰
+                </div>
+
+            </div>
+
+
+            <!-- User -->
+
+            <div class="user-profile">
+
+                <div class="user-avatar">
+                    OS
+                    <span class="online-dot"></span>
+                </div>
+
+                <div class="user-details">
+                    <strong>Omprakash Shukla</strong>
+                    <p>Support Agent</p>
+                </div>
+
+                <span class="profile-arrow">›</span>
 
             </div>
 
         </aside>
 
 
-        <!-- MAIN CONTENT -->
+        <!-- =====================================================
+             MAIN
+        ====================================================== -->
+
         <main class="main">
 
-            <!-- TOPBAR -->
+
+            <!-- TOP BAR -->
+
             <header class="topbar">
 
-                <div class="mobile-brand">
-                    TicketAI
+                <div class="search-box">
+
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="text"
+                        placeholder="Search tickets, users, or keywords..."
+                    >
+
+                    <span class="search-shortcut">⌘K</span>
+
                 </div>
 
-                <div class="top-actions">
 
-                    <button class="icon-button">
-                        ◐
+                <div class="topbar-actions">
+
+                    <button class="top-icon notification">
+                        ♧
+                        <span class="notification-count">3</span>
                     </button>
 
-                    <button class="icon-button notification">
-                        ♢
-                        <span></span>
+                    <button class="top-icon theme-toggle">
+                        ☾
                     </button>
 
-                    <div class="profile">
-                        <div class="avatar small">OS</div>
-                        <div>
-                            <strong>Omprakash</strong>
-                            <small>Administrator</small>
-                        </div>
+                    <div class="top-avatar">
+                        OS
                     </div>
 
                 </div>
@@ -118,46 +207,77 @@
             </header>
 
 
-            <!-- CONTENT -->
+            <!-- =====================================================
+                 PAGE CONTENT
+            ====================================================== -->
+
             <section class="content">
 
-                <div class="welcome">
 
-                    <div>
-                        <p class="eyebrow">OVERVIEW</p>
+                <!-- Welcome -->
+
+                <div class="welcome-section">
+
+                    <div class="welcome-text">
+
+                        <div class="section-kicker">
+                            ✦ AI SUPPORT CENTER
+                        </div>
 
                         <h1>
-                            Good morning, Omprakash
+                            Welcome back, Omprakash!
                             <span>👋</span>
                         </h1>
 
-                        <p class="subtitle">
-                            Here's what's happening with your support system today.
+                        <p>
+                            Your AI-powered support assistant is ready to help.
                         </p>
+
                     </div>
 
-                    <button class="new-ticket">
-                        <span>＋</span>
-                        New Ticket
-                    </button>
+
+                    <!-- Date -->
+
+                    <div class="date-card">
+
+                        <div class="date-icon">
+                            ▣
+                        </div>
+
+                        <div>
+                            <strong>Saturday, August 29</strong>
+                            <span>2026 · Support Overview</span>
+                        </div>
+
+                    </div>
 
                 </div>
 
 
-                <!-- STAT CARDS -->
+                <!-- =================================================
+                     STAT CARDS
+                ================================================== -->
+
                 <div class="stats-grid">
 
+
                     <div class="stat-card">
 
-                        <div class="stat-top">
-                            <span>Total Tickets</span>
-                            <div class="stat-icon">▣</div>
+                        <div class="stat-card-top">
+
+                            <div>
+                                <span>Total Tickets</span>
+                                <h3>1,248</h3>
+                            </div>
+
+                            <div class="stat-icon blue">
+                                ▣
+                            </div>
+
                         </div>
 
-                        <div class="stat-value">1,248</div>
-
-                        <div class="stat-change positive">
-                            ↑ 12.5%
+                        <div class="stat-bottom">
+                            <strong>↑ 12.5%</strong>
                             <span>vs last month</span>
                         </div>
 
@@ -166,15 +286,21 @@
 
                     <div class="stat-card">
 
-                        <div class="stat-top">
-                            <span>AI Resolved</span>
-                            <div class="stat-icon ai">✦</div>
+                        <div class="stat-card-top">
+
+                            <div>
+                                <span>AI Resolved</span>
+                                <h3>842</h3>
+                            </div>
+
+                            <div class="stat-icon green">
+                                ✓
+                            </div>
+
                         </div>
 
-                        <div class="stat-value">842</div>
-
-                        <div class="stat-change positive">
-                            ↑ 18.2%
+                        <div class="stat-bottom">
+                            <strong>↑ 18.2%</strong>
                             <span>vs last month</span>
                         </div>
 
@@ -183,272 +309,490 @@
 
                     <div class="stat-card">
 
-                        <div class="stat-top">
-                            <span>Pending Tickets</span>
-                            <div class="stat-icon warning">◷</div>
+                        <div class="stat-card-top">
+
+                            <div>
+                                <span>Avg. Response</span>
+                                <h3>1.8<span>s</span></h3>
+                            </div>
+
+                            <div class="stat-icon purple">
+                                ◷
+                            </div>
+
                         </div>
 
-                        <div class="stat-value">96</div>
-
-                        <div class="stat-change negative">
-                            ↓ 8.4%
-                            <span>vs last month</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="stat-card">
-
-                        <div class="stat-top">
-                            <span>Avg. Response</span>
-                            <div class="stat-icon speed">ϟ</div>
-                        </div>
-
-                        <div class="stat-value">1.8<span class="unit">s</span></div>
-
-                        <div class="stat-change positive">
-                            ↑ 24.7%
+                        <div class="stat-bottom">
+                            <strong>↓ 24.7%</strong>
                             <span>faster than before</span>
                         </div>
 
                     </div>
 
+
+                    <div class="stat-card">
+
+                        <div class="stat-card-top">
+
+                            <div>
+                                <span>AI Automation</span>
+                                <h3>87%</h3>
+                            </div>
+
+                            <div class="stat-icon pink">
+                                ✦
+                            </div>
+
+                        </div>
+
+                        <div class="stat-bottom">
+                            <strong>↑ 24%</strong>
+                            <span>vs last month</span>
+                        </div>
+
+                    </div>
+
                 </div>
 
 
-                <!-- DASHBOARD GRID -->
-                <div class="dashboard-grid">
+                <!-- =================================================
+                     MAIN DASHBOARD
+                ================================================== -->
+
+                <div class="dashboard-layout">
 
 
-                    <!-- AI ASSISTANT -->
-                    <div class="ai-panel">
+                    <!-- =================================================
+                         AI TICKET ANALYSIS
+                    ================================================== -->
 
-                        <div class="panel-header">
+                    <section class="glass-panel ai-panel">
 
-                            <div>
-                                <p class="eyebrow">INTELLIGENCE</p>
-                                <h2>AI Ticket Assistant</h2>
+
+                        <div class="panel-heading">
+
+                            <div class="panel-title">
+
+                                <div class="title-icon">
+                                    ✦
+                                </div>
+
+                                <div>
+                                    <span class="mini-label">
+                                        INTELLIGENCE ENGINE
+                                    </span>
+
+                                    <h2>AI Ticket Analysis</h2>
+
+                                    <p>
+                                        Enter a customer query and let AI analyze it instantly.
+                                    </p>
+                                </div>
+
                             </div>
 
-                            <div class="ai-status">
+
+                            <div class="ai-ready">
                                 <span></span>
-                                AI Online
+                                AI Model Ready
                             </div>
 
                         </div>
 
 
-                        <div class="ticket-input">
+                        <!-- Ticket Input -->
 
-                            <label>DESCRIBE THE CUSTOMER ISSUE</label>
+                        <div class="analysis-area">
+
+                            <div class="input-label">
+                                DESCRIBE THE CUSTOMER'S ISSUE
+                            </div>
 
                             <textarea
-                                placeholder="e.g. I forgot my password and can't login to my account..."
+                                placeholder="e.g. I can't login to my account, forgot my password..."
                             ></textarea>
 
-                            <div class="input-footer">
 
-                                <span>
-                                    ✦ AI will classify and generate a response
+                            <div class="input-info">
+
+                                <span class="character-count">
+                                    0/500 characters
                                 </span>
 
-                                <button>
-                                    Analyze Ticket →
-                                </button>
+                                <span>
+                                    Press ⌘ + Enter to analyze
+                                </span>
 
                             </div>
 
+
+                            <button class="analyze-button">
+                                <span>✦</span>
+                                Analyze Ticket
+                                <b>→</b>
+                            </button>
+
                         </div>
 
+
+                        <!-- AI Result -->
 
                         <div class="ai-result">
 
-                            <div class="result-header">
+                            <div class="result-top">
 
-                                <span>AI ANALYSIS</span>
+                                <div>
+
+                                    <span class="result-label">
+                                        ✦ AI ANALYSIS RESULT
+                                    </span>
+
+                                    <p>
+                                        Intent · Category · Priority · Suggested Response
+                                    </p>
+
+                                </div>
+
 
                                 <div class="confidence">
-                                    98% confidence
+                                    <span>⌁</span>
+                                    Confidence: <strong>98%</strong>
                                 </div>
 
                             </div>
 
 
-                            <div class="result-tags">
+                            <!-- Result Cards -->
 
-                                <div>
-                                    <small>INTENT</small>
-                                    <strong>Password Reset</strong>
+                            <div class="result-grid">
+
+
+                                <div class="result-card">
+
+                                    <span>INTENT</span>
+
+                                    <div class="result-value">
+                                        <div class="result-small-icon purple-bg">
+                                            ◎
+                                        </div>
+
+                                        <strong>Password Reset</strong>
+                                    </div>
+
                                 </div>
 
-                                <div>
-                                    <small>CATEGORY</small>
-                                    <strong>Authentication</strong>
+
+                                <div class="result-card">
+
+                                    <span>CATEGORY</span>
+
+                                    <div class="result-value">
+
+                                        <div class="result-small-icon blue-bg">
+                                            ▱
+                                        </div>
+
+                                        <strong>Authentication</strong>
+
+                                    </div>
+
                                 </div>
 
-                                <div>
-                                    <small>PRIORITY</small>
-                                    <strong class="priority">Medium</strong>
+
+                                <div class="result-card">
+
+                                    <span>PRIORITY</span>
+
+                                    <div class="result-value">
+
+                                        <div class="result-small-icon orange-bg">
+                                            !
+                                        </div>
+
+                                        <strong class="medium-priority">
+                                            Medium
+                                        </strong>
+
+                                    </div>
+
                                 </div>
 
                             </div>
 
+
+                            <!-- Suggested Response -->
 
                             <div class="suggested-response">
 
-                                <div class="response-title">
-                                    <span>✦</span>
-                                    Suggested Response
+                                <div class="response-icon">
+                                    ✦
                                 </div>
 
-                                <p>
-                                    No worries! You can reset your password by
-                                    selecting <strong>“Forgot Password”</strong>
-                                    on the login page. We'll guide you through
-                                    the process step by step.
-                                </p>
+                                <div class="response-content">
+
+                                    <div class="response-heading">
+                                        <strong>Suggested Response</strong>
+                                        <span>AI Generated</span>
+                                    </div>
+
+                                    <p>
+                                        No worries! You can reset your password by
+                                        selecting “Forgot Password” on the login page.
+                                        We'll guide you through the process step by step.
+                                    </p>
+
+                                </div>
+
 
                                 <button class="copy-button">
-                                    Copy Response
+                                    ▣ Copy Response
                                 </button>
 
                             </div>
 
                         </div>
 
-                    </div>
+                    </section>
 
 
-                    <!-- RECENT TICKETS -->
-                    <div class="tickets-panel">
+                    <!-- =================================================
+                         RIGHT COLUMN
+                    ================================================== -->
 
-                        <div class="panel-header">
-
-                            <div>
-                                <p class="eyebrow">ACTIVITY</p>
-                                <h2>Recent Tickets</h2>
-                            </div>
-
-                            <a href="#">View all →</a>
-
-                        </div>
+                    <div class="right-column">
 
 
-                        <div class="ticket-list">
+                        <!-- Recent Tickets -->
 
-                            <div class="ticket">
+                        <section class="glass-panel recent-panel">
 
-                                <div class="ticket-id">
-                                    #TK-1042
-                                </div>
+                            <div class="panel-heading compact">
 
-                                <div class="ticket-title">
-                                    Unable to reset my password
-                                </div>
-
-                                <div class="ticket-meta">
-                                    <span class="tag authentication">
-                                        Authentication
+                                <div>
+                                    <span class="mini-label">
+                                        ACTIVITY
                                     </span>
 
-                                    <span class="priority-dot high">
-                                        High
-                                    </span>
+                                    <h2>Recent Tickets</h2>
                                 </div>
 
-                                <div class="ticket-time">
-                                    2 min ago
-                                </div>
+                                <a href="#">
+                                    View All →
+                                </a>
 
                             </div>
 
 
-                            <div class="ticket">
+                            <div class="recent-tickets">
 
-                                <div class="ticket-id">
-                                    #TK-1041
+
+                                <div class="recent-ticket">
+
+                                    <div class="ticket-user blue-avatar">
+                                        JS
+                                    </div>
+
+                                    <div class="ticket-content">
+
+                                        <strong>
+                                            Cannot login to account
+                                        </strong>
+
+                                        <span>
+                                            #TKT-1248 · Authentication
+                                        </span>
+
+                                    </div>
+
+                                    <div class="ticket-status medium">
+                                        ● Medium
+                                    </div>
+
+                                    <time>2m</time>
+
                                 </div>
 
-                                <div class="ticket-title">
-                                    How can I check my leave balance?
+
+                                <div class="recent-ticket">
+
+                                    <div class="ticket-user purple-avatar">
+                                        PR
+                                    </div>
+
+                                    <div class="ticket-content">
+
+                                        <strong>
+                                            Payment not reflected
+                                        </strong>
+
+                                        <span>
+                                            #TKT-1247 · Billing
+                                        </span>
+
+                                    </div>
+
+                                    <div class="ticket-status high">
+                                        ● High
+                                    </div>
+
+                                    <time>15m</time>
+
                                 </div>
 
-                                <div class="ticket-meta">
-                                    <span class="tag account">
-                                        Account
-                                    </span>
 
-                                    <span class="priority-dot medium">
-                                        Medium
-                                    </span>
+                                <div class="recent-ticket">
+
+                                    <div class="ticket-user pink-avatar">
+                                        AK
+                                    </div>
+
+                                    <div class="ticket-content">
+
+                                        <strong>
+                                            Leave balance issue
+                                        </strong>
+
+                                        <span>
+                                            #TKT-1246 · Account
+                                        </span>
+
+                                    </div>
+
+                                    <div class="ticket-status low">
+                                        ● Low
+                                    </div>
+
+                                    <time>32m</time>
+
                                 </div>
 
-                                <div class="ticket-time">
-                                    8 min ago
+
+                                <div class="recent-ticket">
+
+                                    <div class="ticket-user violet-avatar">
+                                        SM
+                                    </div>
+
+                                    <div class="ticket-content">
+
+                                        <strong>
+                                            App crashing on startup
+                                        </strong>
+
+                                        <span>
+                                            #TKT-1245 · Technical
+                                        </span>
+
+                                    </div>
+
+                                    <div class="ticket-status critical">
+                                        ● Critical
+                                    </div>
+
+                                    <time>1h</time>
+
+                                </div>
+
+
+                                <div class="recent-ticket">
+
+                                    <div class="ticket-user blue-avatar">
+                                        RJ
+                                    </div>
+
+                                    <div class="ticket-content">
+
+                                        <strong>
+                                            Feature not working
+                                        </strong>
+
+                                        <span>
+                                            #TKT-1244 · Technical
+                                        </span>
+
+                                    </div>
+
+                                    <div class="ticket-status medium">
+                                        ● Medium
+                                    </div>
+
+                                    <time>2h</time>
+
                                 </div>
 
                             </div>
 
+                        </section>
 
-                            <div class="ticket">
 
-                                <div class="ticket-id">
-                                    #TK-1040
-                                </div>
+                        <!-- Quick Insights -->
 
-                                <div class="ticket-title">
-                                    Payment failed but amount was deducted
-                                </div>
+                        <section class="glass-panel insight-panel">
 
-                                <div class="ticket-meta">
-                                    <span class="tag billing">
-                                        Billing
+                            <div class="panel-heading compact">
+
+                                <div>
+                                    <span class="mini-label">
+                                        INSIGHTS
                                     </span>
 
-                                    <span class="priority-dot critical">
-                                        Critical
-                                    </span>
+                                    <h2>Quick Insights</h2>
                                 </div>
 
-                                <div class="ticket-time">
-                                    14 min ago
-                                </div>
+                                <span class="insight-bulb">
+                                    ✦
+                                </span>
 
                             </div>
 
 
-                            <div class="ticket">
+                            <div class="insight-box">
 
-                                <div class="ticket-id">
-                                    #TK-1039
-                                </div>
-
-                                <div class="ticket-title">
-                                    Cannot access my dashboard
-                                </div>
-
-                                <div class="ticket-meta">
-                                    <span class="tag technical">
-                                        Technical
+                                <div>
+                                    <span>
+                                        Most common issue today
                                     </span>
 
-                                    <span class="priority-dot low">
-                                        Low
-                                    </span>
+                                    <strong>
+                                        Password Reset
+                                    </strong>
                                 </div>
 
-                                <div class="ticket-time">
-                                    21 min ago
+                                <div class="insight-number">
+                                    34
+                                    <small>tickets</small>
+                                </div>
+
+                                <div class="trend">
+                                    ↗
                                 </div>
 
                             </div>
 
-                        </div>
+                        </section>
 
                     </div>
 
                 </div>
+
+
+                <!-- =================================================
+                     FOOTER
+                ================================================== -->
+
+                <footer class="footer">
+
+                    <span>
+                        © 2026 TicketAI · Powered by AI & ❤️
+                    </span>
+
+                    <div>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Help</a>
+                    </div>
+
+                </footer>
 
             </section>
 
@@ -460,4 +804,5 @@
     <script src="js/app.js"></script>
 
 </body>
+
 </html>
